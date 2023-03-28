@@ -1,0 +1,24 @@
+package com.paltecno.unittesting;
+
+public class ArrayMethods {
+
+	int findIndex(int[] array, int number) {
+		int index=-1;
+		for(int i=0;i<array.length;i++) {
+			if(array[i]==number)
+				index=i;
+		}
+		return index;
+	}
+	
+	boolean searchNumber(int[] array,int numberToSearchFor) {
+		boolean found=false;
+		for(int i:array) {
+			if(array[i]==numberToSearchFor) {
+				found=true;
+				return found;
+			}
+		}
+		return found;
+	}
+}
