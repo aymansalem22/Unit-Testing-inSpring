@@ -14,7 +14,7 @@ public class LifeCycleJunitTest {
 	private ArrayMethods arrayMethods;
 
 	@BeforeAll
-	static void veforeAllTests() {
+	static void beforeAllTests() {
 		System.out.println("Run this code before all tests");
 	}
 

@@ -1,7 +1,5 @@
 package com.paltecno.unittesting;
 
-
-
 public class ArrayMethods {
 
 	int findIndex(int[] array, int number) {
